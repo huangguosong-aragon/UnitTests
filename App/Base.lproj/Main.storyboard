@@ -17,7 +17,6 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jGD-zr-Wub">
                                 <rect key="frame" x="20" y="64" width="335" height="34"/>
-                                <accessibility key="accessibilityConfiguration" identifier="InputTextField"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="aUU-eU-gUG"/>
                                 </constraints>

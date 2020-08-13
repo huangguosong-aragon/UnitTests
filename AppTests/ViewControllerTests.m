@@ -36,6 +36,12 @@
 }
 
 // #2.2
+- (void)testWrongAsync {
+    [self.viewController asyncWithSleep:3 result:^(NSString *object) {
+        XCTAssertEqualObjects(@"NO", object, @"Failed");
+    }];
+}
+
 - (void)testAsync {
     XCTestExpectation *expectation = [self expectationWithDescription:@"timeout"];
     [self.viewController asyncWithSleep:3 result:^(NSString *object) {
@@ -62,7 +68,7 @@
 }
 
 // #3.1 Standard Email
-// #3.2 Standard Unit Tests Rquest
+// #3.2 Standard Unit Tests Rquest, NGAccountLinkingDAOTests
 // #3.3 OCMock & NGSignUpViewControllerTests
 
 - (void)testData {

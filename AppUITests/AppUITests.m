@@ -40,6 +40,10 @@
     [app launch];
 }
 
+- (void)testRecording {
+    
+}
+
 // #4.3 性能
 - (void)testLaunchPerformance {
     if (@available(macOS 10.15, iOS 13.0, tvOS 13.0, *)) {

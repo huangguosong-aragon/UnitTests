@@ -14,7 +14,7 @@
 
 @implementation Unit_Tests
 
-// #1.1 基础讲解
+// #1.1 
 // 所有测试方法执行之前都会执行这个方法，如果我们需要测试一个对象的方法，可现在这个方法里实例化对象。
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
